@@ -1,0 +1,79 @@
+/* Apply to screen size of 725 pixels or below */
+@media only screen and (max-width: 725px) {
+  body {
+    background-color: rgba(166,235,153,1);
+    margin: 15px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 21pt;
+    padding-left: 5.5%;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:19.5pt;
+    padding-left: 5.5%;
+    padding-right: 5%;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  figcaption {
+    text-align:center;
+    font-size:18pt;
+  }
+}
+
+
+/* Apply to screen size of 726 pixels or above */
+@media only screen and (min-width: 726px) {
+  body {
+    background-color: rgba(254,216,177,1);
+    margin: 15px;
+  }
+
+  h1{
+    text-align:center;
+  }
+
+  h2 {
+    font-size: 19pt;
+    padding-left: 3%;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:17pt;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .main_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .kitten_block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  figcaption {
+    text-align:center;
+    font-size:15pt;
+  }
+}
